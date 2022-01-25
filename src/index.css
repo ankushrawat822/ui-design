@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:  hsl(226, 43%, 10%);
+  font-family: 'Rubik', sans-serif;
+}
+
+.main_div{
+ 
+   width: 75%;
+   height: 50% ;
+   margin: 130px auto;
+   display: grid;
+   grid-template-rows: 200px 200px;
+   grid-template-columns: 232px 1fr 1fr 1fr;
+   grid-gap: 30px;
+ 
+}
+
+.div1{
+   background-color: hsl(235, 46%, 20%);
+   grid-row-start: 1; grid-row-end: 3 ;
+   border-radius: 11px;
+}
+
+.user{
+  background-color:  hsl(246, 80%, 60%);
+  border-radius: 15px;
+}
+
+.div2{
+  background-color: hsl(15, 100%, 70%);
+border-radius: 10px 10px 12px 12px;
+}
+.div2_background{
+  background-color:  hsl(235, 46%, 20%);
+  border-radius: 12px;
+  cursor: pointer;
+  
+}
+
+.div2_background:hover{
+   background-color: hsl(235, 46%, 36%);
+}
+
+.div3{
+   background-color:hsl(195, 74%, 62%);
+   border-radius: 10px 10px 12px 12px;
+}
+
+/* study */
+.div4{  
+  background-color:hsl(348, 100%, 68%);
+  border-radius: 10px 10px 12px 12px;
+}
+
+/* excersics */
+.div5{
+  background-color: hsl(145, 58%, 55%);
+  border-radius: 10px 10px 12px 12px;
+}
+
+/* social */
+.div6{
+  background-color: hsl(264, 64%, 52%);
+  border-radius: 10px 10px 12px 12px;
+}
+
+/* selfcare */
+.div7{
+  background-color: hsl(43, 84%, 65%);
+  border-radius: 10px 10px 12px 12px;
+}
+
+.user_img{
+  margin: 25px;
+  margin-top: 25px;
+height: 72px;
+width: 75px;
+border: 4px solid white;
+border-radius: 40px;
+margin-top: 19px;
+}
+
+.report{
+ color: white;
+margin: 19px;
+padding: 0;
+margin-bottom: -49px;
+margin-left: 41px;
+margin-top: 18px;
+}
+
+.user_jeremy{
+color: white;
+font-size: 43px;
+padding-bottom: 48px;
+margin-left: 50px;
+margin-top: 50px;
+}
+
+
+.list{
+
+  list-style-type: none;
+color: white;
+margin: 20px;
+ 
+margin-left: 38px;
+}
+
+.daily_list{
+  padding-top: 1px;
+  padding-bottom: 9px;
+}
+
+.weekly_list{
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.monthly_list{
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+
+.link_daily{
+  color: white;
+  text-decoration: none;
+}
+
+.link_weelky{
+  color: white;
+  text-decoration: none;
+}
+
+.link_monthly{
+  color: white;
+  text-decoration: none;
+}
+
+.work_img{
+  margin: 34px;
+}
+
+.unnecessary{
+ visibility: hidden;
+}
+
+
+.work_inner_div_h4_dot{
+  display: flex;
+}
+
+.div2_inner_p_work{
+  display: flex;
+}
+
+.work{
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.work_time{
+  margin-left: 56px;
+  font-size: 47px;
+  margin-top: 12px;
+  color: white;
+}
+
+.work_time_caption{
+  margin-left: 64px;
+  margin-top: 3px;
+  color: white;
+  padding-bottom: 27px;
+
+}
+
+.dot_3{
+  margin-top: 26px;
+  margin-left: 37px;
+}
+
+@media only screen and (max-width : 900px){
+  .main_div{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+/* resposive in mobile  */
+@media only screen and (max-width : 723px){
+   .main_div{
+     grid-template-columns: 1fr;
+   }
+}
+
+
